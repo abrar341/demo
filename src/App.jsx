@@ -1,13 +1,13 @@
 // App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import Layout from "./components/Demo/Layout";
-import Settings from "./components/Demo/Settings";
-import Inbox from "./components/Demo/Inbox";
-import Dashboard from "./components/Demo/Dashboard";
-import Schedule from "./components/Demo/Schedule";
-import Reviews from "./components/Demo/Reviews";
-import TreatmentsSettings from "./components/Demo/TreatmentsSettings";
+import Layout from "./components/pages/Layout";
+import Settings from "./components/pages/Settings";
+import Inbox from "./components/pages/Inbox";
+import Dashboard from "./components/pages/Dashboard";
+import Schedule from "./components/pages/Schedule";
+import Reviews from "./components/pages/Reviews";
+import TreatmentsSettings from "./components/pages/TreatmentsSettings";
 
 
 const App = () => {
