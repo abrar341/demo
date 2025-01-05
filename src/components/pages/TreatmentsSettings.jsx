@@ -81,7 +81,7 @@ const TreatmentsSettings = () => {
     };
 
     return (
-        <div className="flex w-full  ">
+        <div className="flex w-full flex-col sm:flex-row  ">
             <aside className="w-1/3 px-2 mx-5">
                 <h2 className="text-lg font-bold text-gray-600 mb-4">Treatments</h2>
                 <ul className="space-y-2">
@@ -100,7 +100,7 @@ const TreatmentsSettings = () => {
                 </ul>
             </aside>
 
-            <main className="w-3/4 bg-blue-50 rounded-2xl px-4 p-6 mt-10">
+            <main className="w-full md:w-3/4 bg-blue-50 rounded-2xl px-4 p-6 mt-10">
                 <h2 className="text-base text-gray-600 font-bold mb-4">
                     {activeCategory.name} (
                     {tempCategories.find((category) => category.id === activeCategory.id)?.subcategories.length || 0})

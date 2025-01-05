@@ -16,7 +16,7 @@ const AsideBar = () => {
     return (
         <aside className="w-25 h-screen flex flex-col">
             <nav className="py-6">
-                <ul className="space-y-2 pl-6">
+                <ul className="space-y-2 pl-4 md:pl-6">
                     {menuItems.map((item) => {
                         const isActive = location.pathname.startsWith(item.path);
 

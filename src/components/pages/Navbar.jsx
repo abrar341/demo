@@ -6,11 +6,11 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 
 const TopNavbar = () => {
     return (
-        <header className="bg-gray-100 px-6 py-3 flex items-center justify-between min-w-full">
+        <header className="bg-gray-100 min-w-[350px] px-6 py-3 flex flex-wrap gap-3 md:gap-0 justify-center items-center md:justify-between min-w-full">
             <div className="flex items-center">
                 <h1 className="text-2xl font-bold text-gray-800">Cosmediate</h1>
             </div>
-            <div className="flex-grow max-w-md mx-4">
+            <div className="flex-grow max-w-md mx-4 order-last md:order-none">
                 <div className="relative">
                     <input
                         type="text"
@@ -26,7 +26,7 @@ const TopNavbar = () => {
                 </button>
 
                 {/* User Profile */}
-                <div className="flex items-center space-x-2">
+                <div className="flex items-center bg-gray-100 space-x-2">
                     <img
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLMjBEjwc03n50U1PTaNyjQL4hrtjmNOmNAg&s"
                         alt="User"
